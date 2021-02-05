@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="open-close.css">
+    <title>open-close</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <input type="checkbox" id="show-hide0" class="show-hide">
+            <label for="show-hide0" class="more" open-text="&dtri;" close-text="&rtri;"></label>
+            Level0-0
+            <ul class="hidden">
+                <li>Level1-0</li>
+                <li>
+                    <input type="checkbox" id="show-hide11" class="show-hide">
+                    <label for="show-hide11" class="more" open-text="&dtri;" close-text="&rtri;"></label>
+                    Level1-1
+                    <ul class="hidden">
+                        <li>
+                            Level1-1-0
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="show-hide1" class="show-hide">
+            <label for="show-hide1" class="more" open-text="&dtri;" close-text="&rtri;"></label>
+            Level0-1
+            <ul class="hidden">
+                <li>Level1-2</li>
+                <li>Level1-3</li>
+            </ul>
+        </li>        
+    </ul>    
+</body>
+</html>
