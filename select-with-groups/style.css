@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,500,500i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+
+main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+.form-row {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.prop {
+    background-color: lightgray;
+}

@@ -1,0 +1,17 @@
+li {
+    padding-bottom: 0.2rem;
+}
+
+.ok-btn {
+    border: 1px solid #0f0; 
+    border-radius: 3px;   
+    background-color: #8f8;
+    font-size: 0.8rem;
+}
+
+.del-btn {
+    border: 1px solid #f00;
+    border-radius: 3px;
+    background-color: #f88;
+    font-size: 0.8rem;
+}
