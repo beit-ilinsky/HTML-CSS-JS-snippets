@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {    
+    background-color: lightgray;
+}
+.yel-on-blue {
+    background-color: #0000A0;
+    color: #ff8;
+}
+.white-on-green {
+    background-color: #008000;
+    color: #fff;
+}
+div {
+    margin: 0 auto;
+    max-width: 20rem;
+}
+ul {
+    margin-left: 1rem;
+}
+li:hover {
+    cursor: pointer;
+}
