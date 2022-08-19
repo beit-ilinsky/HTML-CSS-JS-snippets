@@ -9,6 +9,9 @@ function FillList(lst, itemlabels, btnlabel, btnclass, itemtag = 'li') {
 
             let spn = document.createElement('span');            
             spn.innerText = l + ' ';
+            spn.addEventListener('click', () => {
+                alert(l + ' clicked');
+            })
 
             let btn = document.createElement('button');
             btn.classList.add(btnclass);
