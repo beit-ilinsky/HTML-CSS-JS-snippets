@@ -1,4 +1,5 @@
 # HTML-CSS-JS-snippets
+### **actual-potential** - 2 option lists: one of choosen options - actual, another - to choose from - potential. 
 ### **dynlist** - programmatically filled list with per-row buttons removing those rows. 
 #### Possible applicaton - TODO-list, shooping list etc.
 ### **hlit-elem** - how to extract actual style value and change it programmatically on click
