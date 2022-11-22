@@ -1,0 +1,28 @@
+details {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  details > summary.top {
+    list-style-type: "\2630";
+  }
+
+  details > summary.inner {
+    list-style-type: "\25BC";
+  }
+  
+  details[open] > summary {
+    list-style-type: "\2613";
+  }
+  
+  .menu {
+    margin-left: 1.3em;
+  }
+  details a {
+    display: block;  
+    font-size: .8em;
+    font-weight: 400;
+  }
+  
+  

@@ -5,6 +5,7 @@
 }
 body {    
     background-color: lightgray;
+    border: 1px solid white;
 }
 .yel-on-blue {
     background-color: #0000A0;
@@ -20,6 +21,7 @@ div {
 }
 ul {
     margin-left: 1rem;
+    list-style-type: none;
 }
 li:hover {
     cursor: pointer;

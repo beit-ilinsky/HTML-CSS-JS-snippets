@@ -1,6 +1,5 @@
 
-function FillList(lst, itemlabels, btnlabel, btnclass, itemtag = 'li') {
-    console.log('')
+function FillList(lst, itemlabels, btnlabel, btnclass, itemtag = 'li') {   
     lst.replaceChildren(); //empty list
     if (itemlabels) { //in some cases can be empty/undefined
         let frag = document.createDocumentFragment();        

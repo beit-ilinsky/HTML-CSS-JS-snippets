@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.show-hide {
+    display: none;
+}
+.hidden {
+    display: none;
+}
+.more::after {
+    content:attr(open-text);
+    font-size: 2rem;
+    vertical-align: sub;
+}
+.show-hide:checked ~.hidden {
+    display: block;
+}
+.show-hide:checked + .more::after {
+    content: attr(close-text);
+    font-size: 2rem;
+    vertical-align: sub;
+}
+.hover-hlit:hover {
+    background-color: gray;
+    color: white;
+}
