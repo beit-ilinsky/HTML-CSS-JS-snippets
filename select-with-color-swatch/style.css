@@ -1,36 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:300,300i,400,400i,500,500i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 6rem;
+    clear: both;
+    margin: 0.5rem 0;
+    font-weight: 400;    
+    line-height: 1.5;
+    margin-top: -.1rem;  
 }
 
 ul {
     list-style-type: none;
+    padding: 1rem;
 }
 
+
+
 .show-hide {
-    display: none;
+    appearance: none;
+    border: 1px solid darkgray;
+    font-size: 1.95em;
+    padding-bottom: .07em; 
+}
+.show-hide::after {
+    content: '\25BC';
 }
 .hidden {
     display: none;
 }
-.more::after {
-    content:attr(open-text);
-    font-size: 2rem;
-    vertical-align: sub;
-}
 .show-hide:checked ~.hidden {
     display: block;
-}
-.show-hide:checked + .more::after {
-    content: attr(close-text);
-    font-size: 2rem;
-    vertical-align: sub;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    min-width: 14em;
 }
 .hover-hlit:hover {
     background-color: gray;
     color: white;
+}
+.relpos {
+    position:relative;
+    margin-bottom: 1em;    
+}
+.abspos {
+    position: absolute;
+    top: 2.4em;
+    left: 0;
+}
+.swatch {
+    font-size: 1.6em;
+}
+
+label[for="show-hide"] {
+    display: inline-block;
+    min-width: 14em;
+    border: 1px solid darkgray;
+    margin-bottom: .2em;
 }

@@ -12,6 +12,7 @@ function FillSelect(items, itemtag = 'li') {
     
     if (items) {
         let sel = GetSelected();
+
         let frag = document.createDocumentFragment();
         for (let item of items) {
             let el = document.createElement(itemtag);
@@ -19,7 +20,7 @@ function FillSelect(items, itemtag = 'li') {
             let swatch = document.createElement('span');
             swatch.innerHTML = '&#x25A0; ';
             swatch.style.setProperty('color', item.color);
-            swatch.style.setProperty('font-size', '1.5em');
+            swatch.classList.add('swatch'); 
             
 
             let lbl = document.createElement('span');
@@ -36,19 +37,14 @@ function FillSelect(items, itemtag = 'li') {
             el.appendChild(swatch);
             el.appendChild(lbl);
 
-            if (!sel) {
-                SetSelected(item.value);
-                sel = GetSelected();
-            }
-
             if (sel == item.value) {
                 document.querySelector('label[for="show-hide"]').innerHTML = el.innerHTML;
             }
+
             frag.appendChild(el);
         }
         lst.appendChild(frag);
     }
-
 }
 
 window.onload = () => {
