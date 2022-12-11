@@ -66,4 +66,7 @@ window.onload = () => {
         }
     ];
     FillSelect(items);
+    document.getElementById('lst').addEventListener('mouseleave', () => {
+        document.getElementById('show-hide').checked = false;
+    });
 }
