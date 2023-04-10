@@ -15,5 +15,5 @@
 #### Possible application - a self-contained list with additional information (data snapshot together with UI displaying this data).
 ### **speechSynthesis-how-many-instances** - Does iframe have separate instance of speechSynthesis? My check shows that yes.
 #### You cannot compare 2 instances with a piece of code, but if you know that page instance has non-null onvoiceschanged member, you can check if this holds for iframe instance. It doesn't - so iframe has separate speechSynthesis instance. **Checked with Firefox, Edge and Chrome**
-#### Possible application: suppose you have 2 utterances:  "A" - rather long one and "B" - a short one (selected by user while speaking A). You need to pause A, speak B and then resume A. It is impossible with one speechSynthesis instance because **speaking** and **paused** are speechSynthesis' rather than utterance's properties.
+#### Possible application: suppose you have 2 utterances:  "A" - rather long one and "B" - a short one (selected by user while speaking A). You need to pause A, speak B and then resume A. It is impossible with one speechSynthesis instance because *speaking* and *paused* are speechSynthesis' rather than utterance's properties.
 
