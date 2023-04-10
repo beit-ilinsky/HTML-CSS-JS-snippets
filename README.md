@@ -9,7 +9,7 @@
 #### I could not find how frequently jsdelivr refreshes...
 ### **open-close** - a tree-like structure with collapsible branches
 #### A lot of application, e.g. hiding/showing part of text, hierarhical menus and controls
-### **select-with-color-swatch** - similar to open-close, but behaving like <select>. Has color swatches in each option.
+### **select-with-color-swatch** - similar to open-close, but behaving like \<select\>. Has color swatches in each option.
 #### I need something like this in timelogger
 ### **select-with-groups** - programmatically filled select with option groups and code extracting option properties on option selection
 #### Possible application - a self-contained list with additional information (data snapshot together with UI displaying this data).
