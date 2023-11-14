@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    align-items: center;/*vertical alignment of fixed items*/
+}
+.fixed-width {
+    width: 12rem;
+    background-color: pink;      
+}
+#right {
+    text-align: right;
+}    
+#middle {
+    background-color: lightgreen;
+    flex-grow: 1;
+    text-align: center;
+}

@@ -3,6 +3,8 @@
 ### *details* - hamburger menu using <details> tag (modified code of Jason Zimdars in comments to [Three CSS Alternatives to JavaScript Navigation](https://css-tricks.com/three-css-alternatives-to-javascript-navigation/)
 ### *dynamic-list* - programmatically filled list with per-row buttons removing those rows. 
 #### Possible applicaton - TODO-list, shooping list etc.
+### *grab-rest* - how to make one of elements in the row to take all width remained in it
+#### Possible application - label and/or button of fixed width and text input on the rest of the line
 ### *hlit-elem* - how to extract actual style value and change it programmatically on click
 #### Possible application - single-click/tap highlight
 ### *lib* - an attempt to create microlibrary delivering via jsdelivr
