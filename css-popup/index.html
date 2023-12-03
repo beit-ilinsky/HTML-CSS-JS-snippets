@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS popup</title>
+</head>
+<body>
+    <article>
+        <div class="center"><h2>Show hidden popup</h2></div>
+        <div id="hidden-popup" class="popup">
+            <div class="titlebar">
+                <p>Title</p>
+                <a href="#" class="close butt">&times;</a>
+            </div>
+            <div class="messagebox">
+                <h3>Message</h3>
+            </div>
+            <div class="buttonbar">
+                <a href="#" class="ok butt">OK</a>
+                <a href="#" class="cancel butt">Cancel</a>
+            </div>
+        </div>
+       <a href="#hidden-popup" class="center butt"><h4>Do Show</h4></a>
+    </article>
+    <article>
+        <div class="center"><h2>Show popup from outside of the page</h2></div>
+        <div id="outside-popup" class="popup">
+            <div class="titlebar">
+                <p>Заголовок</p>
+                <a href="#" class="close butt">&times;</a>
+            </div>
+            <div class="messagebox">
+                <h3>Сообщение</h3>
+            </div>
+            <div class="buttonbar">
+                <a href="#" class="ok butt">OK</a>
+                <a href="#" class="cancel butt">Отмена</a>
+            </div>
+        </div>
+        <a href="#outside-popup" class="center butt"><h4>Do Show</h4></a>
+    </article>
+</body>
+</html>

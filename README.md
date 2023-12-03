@@ -1,5 +1,6 @@
 # HTML-CSS-JS-snippets
 ### *actual-potential* - 2 option lists: one of choosen options - actual, another - to choose from - potential. 
+### *css-popup* - how to show and hide popup using only HTML&CSS. [Idea from https://codepen.io/imprakash/pen/GgNMXO]
 ### *details* - hamburger menu using <details> tag (modified code of Jason Zimdars in comments to [Three CSS Alternatives to JavaScript Navigation](https://css-tricks.com/three-css-alternatives-to-javascript-navigation/)
 ### *dynamic-list* - programmatically filled list with per-row buttons removing those rows. 
 #### Possible applicaton - TODO-list, shooping list etc.
