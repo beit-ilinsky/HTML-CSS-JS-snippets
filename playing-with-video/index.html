@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check video</title>
+</head>
+<body>
+    <video id="video_with_titles" controls width="800">
+        <source src="¿Cómo estás_ RLRA.mp4" type="video/mp4" />
+    </video>
+    <p>Video duration: <span id="durspan"></span></p>
+    <p><span id="status">Initial</span>: <span id="curtime">0.0</span> sec.</p>
+    <p>Go to: <input type="number" id="goton" min="0.0"> sec. <button id="go">Go!</button></p>
+    <script src="script.js"></script>
+</body>
+</html>    

@@ -12,6 +12,8 @@
 #### I could not find how frequently jsdelivr refreshes...
 ### *open-close* - a tree-like structure with collapsible branches
 #### A lot of application, e.g. hiding/showing part of text, hierarhical menus and controls
+### *playing-with-video* - obtain length, observe state and current position, change position... ####*- the same can be done with audio*
+#### I need to sync text and audio/video, e.g. select a phrase in text and play it 
 ### *select-with-color-swatch* - similar to open-close, but behaving like \<select\>. Has color swatches in each option.
 #### I need something like this in timelogger
 ### *select-with-groups* - programmatically filled select with option groups and code extracting option properties on option selection
